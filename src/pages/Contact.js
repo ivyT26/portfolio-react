@@ -52,6 +52,17 @@ class Contact extends Component {
   //   });
   // }
 
+  footer() {
+    return (
+      <div id="footer">
+        <a target="_blank" href="https://icons8.com">
+          Icons by Icons8
+        </a>
+        <p>Site hosted on Github pages</p>
+      </div>
+    );
+  }
+
   render() {
     return (
       <div id="contact-info" className="main-section p-3 mb-5">
@@ -69,6 +80,7 @@ class Contact extends Component {
             <img src="https://img.icons8.com/ios-glyphs/90/null/github.png" />
           </a>
         </div>
+        {this.footer()}
         {/* <h4 id="connect-message">
           If you want to send me a message, you can fill this form below!
         </h4>
