@@ -1,11 +1,14 @@
 {
   "name": "portfolio-nodjango",
+  "homepage": "https://ivyt26.github.io/portfolio-react/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d static"
   },
   "author": "ivyT26",
   "license": "ISC",
@@ -29,6 +32,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
