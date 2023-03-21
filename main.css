@@ -32,15 +32,6 @@ h1 {
   font-weight: bold;
 }
 
-/* #home-info,
-#about-info,
-#projects-info,
-#contact-info {
-  background-image: url("https://nocomplexity.com/documents/fossml/_images/coverimage.png");
-  background-size: 50vw;
-  background-repeat: no-repeat;
-} */
-
 /* CSS for menu */
 .nav-link .active {
   font-weight: bold;
