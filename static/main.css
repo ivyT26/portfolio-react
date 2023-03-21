@@ -130,3 +130,13 @@ input {
   padding: 5px;
 }
 
+/* CSS for footer */
+#footer {
+  margin: 10px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+

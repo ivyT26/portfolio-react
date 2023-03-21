@@ -75,7 +75,10 @@ class About extends Component {
               <img src="https://img.icons8.com/plasticine/48/000000/react.png" />
             </a>
             <a target="_blank" href="https://www.djangoproject.com/">
-              <img src="https://img.icons8.com/color/48/null/django.png" />
+              <img
+                style={{ height: "40px" }}
+                src="https://juststickers.in/wp-content/uploads/2019/07/django-shapecut.png"
+              />
             </a>
             <a target="_blank" href="https://www.tensorflow.org/">
               <img src="https://img.icons8.com/color/48/null/tensorflow.png" />
@@ -84,7 +87,10 @@ class About extends Component {
               <img src="https://img.icons8.com/color/48/null/git.png" />
             </a>
             <a target="_blank" href="https://dev.mysql.com/doc/">
-              <img src="https://img.icons8.com/ios/48/null/mysql-logo.png" />
+              <img
+                style={{ height: "40px" }}
+                src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-1024.png"
+              />
             </a>
             <a target="_blank" href="https://aws.amazon.com/?nc2=h_lg">
               <img
@@ -116,7 +122,7 @@ class About extends Component {
             <a target="_blank" href="https://docs.ubuntu.com/">
               <img
                 style={{ height: "40px" }}
-                src="https://logos-world.net/wp-content/uploads/2020/11/Ubuntu-Emblem.png"
+                src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/ubuntu-512.png"
               />
             </a>
           </div>

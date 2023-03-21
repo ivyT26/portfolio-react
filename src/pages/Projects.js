@@ -2,11 +2,6 @@
 //https://stackoverflow.com/questions/8713596/how-to-retrieve-the-list-of-all-github-repositories-of-a-person
 //https://docs.github.com/en/rest/repos?apiVersion=2022-11-28
 
-//maybe I should update the backend storing the projects every 6 months?
-//need to implement backend server (Django)
-
-//get top 3 projects if no filter, otherwise filter by date or programming language or favorite projects
-
 import React, { Component } from "react";
 
 class ProjectItem extends Component {
@@ -15,7 +10,7 @@ class ProjectItem extends Component {
     return (
       <div id="item">
         <a href={p.link}>
-          <h2>{p.name}</h2>
+          <h3>{p.name}</h3>
           <p>
             {/* Description of project here. This is what the project is about. These
           are the tools I used. */}
@@ -42,13 +37,25 @@ class Project extends Component {
           name: "Pokemon Type Image Classification",
           link: "https://github.com/ivyT26/CSCI4931_DLFinal",
           description:
-            "A deep learning project using convolutional neural networks to identify a Pokemon's primary and secondary type using images. The problem solves a multi-label classification problem and predicts Pokemon from generations 1-7. Technologies: Python, Tensorflow, Keras, pandas, numpy, sklearn, matplotlib",
+            "A deep learning project using convolutional neural networks to identify a Pokemon's primary and secondary type using images. The problem solves a multi-label classification problem and predicts Pokemon from generations 1-7. Technologies: Python, Tensorflow, Keras, pandas, numpy, sklearn, seaborn",
         },
         {
           name: "CPU Scheduling Algorithm",
           link: "https://github.com/ivyT26/CSCI-3453",
           description:
             "A simulation program that runs various CPU scheduling algorithms such as first come first serve, shortest job first, preemptive priority, and round robin. Implemented with a queue using a linked list implementation. Designed linked list with classes and structures. Technologies: C++, VSCode",
+        },
+        {
+          name: "Deep Learning Neural Networks",
+          link: "https://github.com/ivyT26/CSCI-4931",
+          description:
+            "Various deep learning projects designing neural networks to solve regression, image classification, and semantic segmentation problems. Technologies: Python, Tensorflow, sklearn, Jupyter Notebook",
+        },
+        {
+          name: "AWS DeepRacer",
+          link: "https://github.com/ivyT26/CSCI4800_AI_Final_Project",
+          description:
+            "A reinforcement learning program that trains an autonomous vehicle to drive around a racetrack. Technologies: AWS, Python",
         },
       ],
     };
