@@ -9,7 +9,7 @@ class ProjectItem extends Component {
     let p = this.props.project;
     return (
       <div id="item">
-        <a href={p.link}>
+        <a target = "__blank" href={p.link}>
           <h3>{p.name}</h3>
           <p>
             {/* Description of project here. This is what the project is about. These
@@ -31,13 +31,13 @@ class Project extends Component {
           name: "CUrPLAN",
           link: "https://github.com/CUrPLAN/Senior-Design-Capstone",
           description:
-            "A web application software that helps Computer Science students at the University of Colorado Denver plan their classes to take in order to graduate on time. Technologies: React.js, Bootstrap, JavaScript, HTML, CSS, Python",
+            "An interactive web application software that helps Computer Science students at the University of Colorado Denver plan their classes to take in order to graduate on time. App allows the user to select classes from a list and drag classes around to fit their desired plans. Technologies: React.js, Bootstrap, JavaScript, HTML, CSS, Python",
         },
         {
           name: "Pokemon Type Image Classification",
           link: "https://github.com/ivyT26/CSCI4931_DLFinal",
           description:
-            "A deep learning project using convolutional neural networks to identify a Pokemon's primary and secondary type using images. The problem solves a multi-label classification problem and predicts Pokemon from generations 1-7. Technologies: Python, Tensorflow, Keras, pandas, numpy, sklearn, seaborn",
+            "A deep learning project using convolutional neural networks to identify a Pokemon's primary and secondary type using images. The project solves a multi-label classification problem and predicts Pokemon from generations 1-7. Technologies: Python, Tensorflow, Keras, NumPy, pandas, sklearn, Seaborn, Jupyter Notebook",
         },
         {
           name: "CPU Scheduling Algorithm",
@@ -49,13 +49,13 @@ class Project extends Component {
           name: "Deep Learning Neural Networks",
           link: "https://github.com/ivyT26/CSCI-4931",
           description:
-            "Various deep learning projects designing neural networks to solve regression, image classification, and semantic segmentation problems. Technologies: Python, Tensorflow, sklearn, Jupyter Notebook",
+            "Various deep learning projects designing different types of neural networks (artificial, convolutional, recurrent) to solve regression, image classification, and semantic segmentation problems. Technologies: Python, Tensorflow, Keras, NumPy, pandas, sklearn, Seaborn, Jupyter Notebook",
         },
         {
-          name: "AWS DeepRacer",
+          name: "AWS DeepRacer: The Blind Meets the Blind",
           link: "https://github.com/ivyT26/CSCI4800_AI_Final_Project",
           description:
-            "A reinforcement learning program that trains an autonomous vehicle to drive around a racetrack. Technologies: AWS, Python",
+            "A reinforcement learning program that trains, simulates, and tests an autonomous vehicle to drive around a virtual racetrack. Programmed a reward function that rewards or penalizes the vehicle for following certain criteria. Technologies: AWS DeepRacer, Python",
         },
       ],
     };
