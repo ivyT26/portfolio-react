@@ -99,6 +99,27 @@ class About extends Component {
               />
             </a>
           </div>
+          <div className="technologies-learning">
+            <p>Tools and Technologies I am currently learning now:</p>
+            <a target="_blank" href="https://www.docker.com/">
+              <img
+                style={{ height: "40px" }}
+                src="https://1.bp.blogspot.com/-Q86XGVJahug/Xm-aQfgtuMI/AAAAAAAAAcA/qqPQeihI39EbG2N87jG65xfnCdvF85-WQCLcBGAsYHQ/s1600/docker.png"
+              />
+            </a>
+            <a target="_blank" href="https://kubernetes.io/docs/home/">
+              <img
+                style={{ height: "40px" }}
+                src="http://www.thagomizer.com/img/kubernetes-logo.png"
+              />
+            </a>
+            <a target="_blank" href="https://spark.apache.org/">
+              <img
+                style={{ height: "40px" }}
+                src="http://scala-phase.org/talks/rdds-dataframes-datasets-2016-06-16/images/spark-logo-white.png"
+              />
+            </a>
+          </div>
           <div className="environment">
             <p>Coding environments I am comfortable using:</p>
             <a target="_blank" href="https://code.visualstudio.com/">

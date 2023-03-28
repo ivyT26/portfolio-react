@@ -81,6 +81,7 @@ h1 {
 }
 
 .technologies > a,
+.technologies-learning > a,
 .languages > a,
 .environment > a {
   margin: 5px;
