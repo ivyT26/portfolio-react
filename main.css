@@ -32,6 +32,11 @@ h1 {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* CSS for menu */
 .nav-link .active {
   font-weight: bold;
@@ -100,6 +105,11 @@ h1 {
 
 #projects-info h1 {
   font-weight: bold;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#projects-info p {
   grid-column-start: 1;
   grid-column-end: 4;
 }
