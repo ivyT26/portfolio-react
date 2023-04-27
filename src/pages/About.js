@@ -49,7 +49,10 @@ class About extends Component {
             </a>
           </div>
           <div className="technologies">
-            <p>Tools and Technologies I am familiar with using:</p>
+            <p>
+              Tools and Technologies I am familiar with using, but still
+              learning:
+            </p>
             <a
               target="_blank"
               href="https://scikit-learn.org/stable/index.html"
@@ -100,7 +103,7 @@ class About extends Component {
             </a>
           </div>
           <div className="technologies-learning">
-            <p>Tools and Technologies I am currently learning now:</p>
+            <p>Tools and Technologies I plan on learning soon:</p>
             <a target="_blank" href="https://www.docker.com/">
               <img
                 style={{ height: "40px" }}
@@ -116,7 +119,7 @@ class About extends Component {
             <a target="_blank" href="https://spark.apache.org/">
               <img
                 style={{ height: "40px" }}
-                src="http://scala-phase.org/talks/rdds-dataframes-datasets-2016-06-16/images/spark-logo-white.png"
+                src="https://uploads-ssl.webflow.com/5e724862760345325327026c/5fa7238e9ad1b43af56de907_apache-spark-white-logo-p-500.png"
               />
             </a>
           </div>

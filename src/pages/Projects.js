@@ -98,6 +98,14 @@ class Project extends Component {
     return (
       <div id="projects-info" className="main-section p-3 mb-5">
         <h1>Welcome to the Projects Page!</h1>
+        <p>
+          Below are some projects I am proud to showcase! To see my other
+          projects, visit my{" "}
+          <a target="__blank" href="https://github.com/ivyT26">
+            Github page
+          </a>
+          !
+        </p>
         {this.displayProjects()}
       </div>
     );
